@@ -1,5 +1,6 @@
 from flask import Flask, request
-import web.configs as configs
+import configs
+
 import api.utils as utils
 
 app = Flask(__name__)

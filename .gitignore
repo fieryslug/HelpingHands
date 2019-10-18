@@ -1,2 +1,2 @@
-api/secrets.py
+api/keys.py
 web/configs.py

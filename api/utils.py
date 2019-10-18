@@ -1,5 +1,6 @@
-import keys
+import api.keys as keys
 import requests
+import constants.params as params
 
 
 def make_request_nasa(api_name, extra):
@@ -22,3 +23,7 @@ def make_request_wwo(api_name, loc, query):
     r = requests.get('http://api.worldweatheronline.com/premium/v1/{}.ashx'.format(api_name), query)
     print(r.url)
     return r.content
+
+
+def test():
+    print(params.IS_LOCAL)

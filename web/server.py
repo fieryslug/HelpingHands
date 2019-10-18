@@ -1,11 +1,11 @@
-import sys
-sys.path.insert(1, '..')
 from flask import Flask, request
 import web.configs as configs
+import api.utils as utils
 
 
 app = Flask(__name__)
 context = configs.SSL_CONTEXT
+
 
 @app.route('/', methods=['POST'])
 def handle_post():
@@ -13,5 +13,5 @@ def handle_post():
     return 'hello world'
 
 
-if __name__ == '__main__':
+def run_server():
     app.run(host='0.0.0.0', port=configs.PORT, debug=True, ssl_context=configs.SSL_CONTEXT)

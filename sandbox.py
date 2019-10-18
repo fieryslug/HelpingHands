@@ -1,8 +1,9 @@
 import sys
 sys.path.insert(1, '.')
-import api.utils as utils
-import api.apis as apis
 from analysis import weather
+from pprint import pprint
+from gadgets import time
+from api import utils, apis
 
-u = weather.do_something()
-print(u)
+a = utils.make_request_wwo(apis.wwo.local_weather, 'taiwan', dict())
+pprint(a['data']['weather'])

@@ -1,7 +1,10 @@
-import api.keys as keys
+from api import keys, apis
 import requests
 import constants.params as params
-
+import json
+from json import JSONDecodeError
+from gadgets import time
+import datetime
 
 def make_request_nasa(api_name, extra):
     extra['api_key'] = keys.key_nasa
@@ -21,9 +24,6 @@ def make_request_wwo(api_name, loc, query):
     query['key'] = keys.key_wwo
     query['format'] = 'json'
     r = requests.get('http://api.worldweatheronline.com/premium/v1/{}.ashx'.format(api_name), query)
+
     print(r.url)
     return r.json()
-
-
-def test():
-    print(params.IS_LOCAL)

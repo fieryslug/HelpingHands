@@ -6,7 +6,6 @@ class API:
 
 nasa = API('Nasa API')
 cdo = API('Climate Data Online (NOAA)')
-cdo
 
 wwo = API('World Weather Online')
 wwo.local_weather = 'weather'

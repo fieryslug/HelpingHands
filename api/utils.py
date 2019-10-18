@@ -1,4 +1,3 @@
-import api.params as params
 import api.secrets as secrets
 import requests
 
@@ -9,9 +8,10 @@ def make_request_nasa(api_name, extra):
     return r.content
 
 
-def make_request_cdo(endpoint):
+def make_request_cdo(endpoint, extra):
     headers = {'token': secrets.key_cdo}
-    r = requests.get('https://www.ncdc.noaa.gov/cdo-web/api/v2/{}'.format(endpoint), headers=headers)
+    r = requests.get('https://www.ncdc.noaa.gov/cdo-web/api/v2/{}'.format(endpoint), extra, headers=headers)
+    print(r.url)
     return r.content
 
 

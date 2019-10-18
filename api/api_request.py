@@ -3,7 +3,7 @@ import requests
 import constants.params as params
 import json
 from json import JSONDecodeError
-from gadgets import time
+from utils import time
 import datetime
 
 def make_request_nasa(api_name, extra):

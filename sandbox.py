@@ -1,9 +1,9 @@
 import sys
 sys.path.insert(1, '.')
-from analysis import weather
+from api import api_request, apis, cache_interface
+from utils import data_manipulating as dm
 from pprint import pprint
-from gadgets import time
-from api import utils, apis
 
-a = utils.make_request_wwo(apis.wwo.local_weather, 'taiwan', dict())
-pprint(a['data']['weather'])
+r = api_request.make_request_wwo(apis.wwo.historical_local, 'taiwan', {'date': '2010-10-20', 'enddate': '2010-10-24'})
+pprint(r)
+

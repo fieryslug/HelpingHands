@@ -13,5 +13,10 @@ def handle_post():
     return 'hello world'
 
 
+@app.route('/', methods=['GET'])
+def handle_get():
+    return 'hello world'
+
+
 def run_server():
     app.run(host='0.0.0.0', port=configs.PORT, debug=True, ssl_context=configs.SSL_CONTEXT)

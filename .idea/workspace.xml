@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d10efc68-d4b1-48ee-957d-8c53f52b5d7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global/params.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants/params.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -153,7 +148,7 @@
       <updated>1571401027056</updated>
       <workItem from="1571401029945" duration="2105000" />
       <workItem from="1571403282671" duration="9998000" />
-      <workItem from="1571415819952" duration="3672000" />
+      <workItem from="1571415819952" duration="3926000" />
     </task>
     <servers />
   </component>

@@ -32,14 +32,14 @@ def handle_api():
     with open('cache/datasets/drought.json', 'r') as f:
         s = f.read()
     
-    #res = dict()
+    res = dict()
 
-    #res['title'] = 'Drought'
-    #res['info'] = drought.info
-    #res['geography'] = drought.get_geography()
-    #res['bubble'] = drought.get_bubbles()
+    res['title'] = 'Drought'
+    res['info'] = drought.info
+    res['geography'] = drought.get_geography()
+    res['bubbles'] = drought.get_bubbles()
     print(s)
-    return s
+    return json.dumps(res)
 
 
 @app.route('/', methods=['GET'])
@@ -48,4 +48,4 @@ def handle_get():
 
 
 def run_server():
-    app.run(host='0.0.0.0', port=configs.PORT, debug=True)
+    app.run(host='0.0.0.0', port=configs.PORT, debug=True, ssl_context=configs.SSL_CONTEXT)

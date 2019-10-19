@@ -2,7 +2,6 @@ api/keys.py
 web/configs.py
 api/__pycache__
 utils/__pycache__
-utils/__pycache__
 analysis/__pycache__
 GHS_BUILT_LDS2014_GLOBE_R2018A_54009_250_V2_0.tif
 GHS_BUILT_LDS2014_GLOBE_R2018A_54009_250_V2_0.tif.xml
@@ -10,3 +9,4 @@ GHS_BUILT_LDS2014_GLOBE_R2018A_54009_250_V2_0.tif.ovr
 try.tif
 try_csv.py
 try_tif.py
+cache/

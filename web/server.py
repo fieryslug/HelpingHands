@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, send_from_directory
 import web.configs as configs
 import api.api_request as utils
 from analysis import drought, heat, health
@@ -7,6 +7,13 @@ import json
 app = Flask(__name__)
 context = configs.SSL_CONTEXT
 path = 'https://cms.nehs.hc.edu.tw:50043'
+
+
+@app.route('/', methods=['GET'])
+
+@app.route('/static/<path:path>')
+def send_file(path):
+    return send_from_directory('statics', path)
 
 @app.route('/list.json', methods=['GET', 'POST'])
 def handle_list():

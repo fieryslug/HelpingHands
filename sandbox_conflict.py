@@ -1,17 +1,14 @@
 import sys
 sys.path.insert(1, '.')
 from analysis import weather
-
-<<<<<<< HEAD
 from pprint import pprint
 from utils import time
 from api import api_request, apis
+import numpy as np
 
 a = api_request.make_request_wwo(apis.wwo.local_weather, 'taiwan', dict())
-pprint(a['data']['weather'])
-=======
-import pprint as pprint
-import numpy as np
+# pprint(a['data']['weather'])
+
 
 '''
 u = weather.do_something()
@@ -27,13 +24,20 @@ def do_something(sy,ey):
 
 j = do_something(2008,2018)
 list = []
+mx_h = 0
+mn_h = 100
 for i in j['data']['weather'][1]['hourly']:
     list.append(int(i['humidity']))
+    if mx_h < int(i['humidity']):
+        mx_h = int(i['humidity'])
+    if mn_h > int(i['humidity']):
+        mn_h = int(i['humidity'])
 
-print(np.std(list,axis =0))
+
+# print(np.std(list,axis =0))
+print(str(mx_h)+' '+str(mn_h))
 for i in j['data']['weather'][1]['hourly']:
     if abs(int(i['humidity']) - np.mean(list,axis =0) > .5*np.std(list,axis=0)):
         print("weird")
 
      
->>>>>>> 1975153a6da23952d9e0def1ce4c08ee59e04cf8

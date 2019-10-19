@@ -13,7 +13,7 @@ colormap = {
     'ED3': '#FF5564',
     'ED2': '#FF99A1',
     'ED1': '#FFC8CC',
-    'ED0': 'FF2630',
+    'ED0': '#FF2630',
     'Null': '#FFFFFF',
     'EW0': '#C7CDFF',
     'EW1': '#ACB4FF',

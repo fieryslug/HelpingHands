@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="/static/bulma.min.css"/>
+    <script src="/static/d3.min.js"></script>
+    <script src="/static/topojson.min.js"></script>
+    <script src="/static/vue.js"></script>
+    <script src="/static/datamaps.world.min.js"></script>
+    <title>NASAMIA</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div id="app">
+        <nav class="navbar is-light" role="navigation" aria-label="dropdown navigation" id="app">
+            <a class="navbar-item" href="./">
+                <strong>NASAMIA</strong>
+            </a>
+
+            <div class="navbar-item has-dropdown dropdown is-hoverable">
+                <a class="navbar-link">
+                    Datasets
+                </a>
+
+                <div class="navbar-dropdown">
+                    <a class="navbar-item" v-for="list in lists" v-bind:href="list.src">
+                        {{ list.title }}
+                    </a>
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <input class="input" id="url" type="text" style="width: 300px; margin-right: 5px;" placeholder="https://www.csie.ntu.edu.tw/~b08902143/nasamia/dataset1.json">
+                    <div class="buttons">
+                        <a class="button" onclick='redirect()'>
+                            Import
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="hero" v-if="dataset">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title">
+                        {{ dataset.title }}
+                    </h1>
+                    <h2 class="subtitle">
+                        {{ dataset.info }}
+                    </h2>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="container" style="position: relative; width: 90%; height:500px; margin: auto;"></div>
+        </section>
+    </div>
+    <script src="/static/index.js"></script>
+</body>

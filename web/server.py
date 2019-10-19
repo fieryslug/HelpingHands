@@ -3,8 +3,10 @@ import web.configs as configs
 import api.api_request as utils
 from analysis import drought, heat, health
 import json
+from pprint import pprint
 
 app = Flask(__name__)
+
 context = configs.SSL_CONTEXT
 path = 'https://cms.nehs.hc.edu.tw:50043'
 
@@ -14,11 +16,11 @@ def handle_list():
     res = [
         {
             'title': 'Drought',
-            'src': path + '/api.json?dataset=Drought'
+            'src': '/api.json?dataset=Drought'
         }
     ]
     print(request)
-    return str(res)
+    return json.dumps(res)
 
 
 @app.route('/api.json', methods=['POST', 'GET'])
@@ -28,20 +30,21 @@ def handle_api():
     print(data)
 
     with open('cache/datasets/drought.json', 'r') as f:
-        s = json.load(f)
+        s = f.read()
     
-    res = dict()
+    #res = dict()
 
-    res['title'] = 'Drought'
-    res['info'] = drought.info
+    #res['title'] = 'Drought'
+    #res['info'] = drought.info
     #res['geography'] = drought.get_geography()
     #res['bubble'] = drought.get_bubbles()
-    return str(s)
+    print(s)
+    return s
 
 
 @app.route('/', methods=['GET'])
 def handle_get():
-    return 'hello world'
+    return send_from_directory('templates', 'index.html')
 
 
 def run_server():

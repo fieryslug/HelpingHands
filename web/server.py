@@ -1,7 +1,7 @@
 from flask import Flask, request, send_from_directory
 import web.configs as configs
 import api.api_request as utils
-from analysis import drought, heat, health
+from analysis import drought, heat, health, hospital
 import json
 from pprint import pprint
 
@@ -17,6 +17,18 @@ def handle_list():
         {
             'title': 'Drought',
             'src': '/api.json?dataset=Drought'
+        },
+        {
+            'title': 'Health Center Density',
+            'src': '/api.json?dataset=HealthCenterDensity'
+        },
+        {
+            'title': 'Heat Index',
+            'src': '/api.json?dataset=HeatIndex'
+        },
+        {
+            'title': 'Hospitals',
+            'src': '/api.json?dataset=Hospital'
         }
     ]
     print(request)
@@ -26,20 +38,30 @@ def handle_list():
 @app.route('/api.json', methods=['POST', 'GET'])
 def handle_api():
 
-    data = request.json
-    print(data)
-
-    with open('cache/datasets/drought.json', 'r') as f:
-        s = f.read()
-    
-    #res = dict()
-
-    #res['title'] = 'Drought'
-    #res['info'] = drought.info
-    #res['geography'] = drought.get_geography()
-    #res['bubble'] = drought.get_bubbles()
-    print(s)
-    return s
+    res = dict()
+    dataset = request.args.get('dataset')
+    if dataset == 'Drought':
+        res['title'] = 'Drought'
+        res['info'] = 'EEDI'
+        res['geography'] = drought.get_geography()
+        res['bubbles'] = drought.get_bubbles()
+    if dataset == 'HealthCenterDensity':
+        res['title'] = 'Health center density'
+        res['info'] = 'density of health centers'
+        res['geography'] = health.get_geography()
+        res['bubbles'] = health.get_bubbles()
+    if dataset == 'HeatIndex':
+        res['title'] = 'Heat index'
+        res['info'] = 'heat index'
+        res['geography'] = heat.get_geography()
+        res['bubbles'] = heat.get_bubbles()
+    if dataset == 'Hospital':
+        res['title'] = 'Hospital'
+        res['info'] = 'hospitals'
+        res['geography'] = hospital.get_geography()
+        res['bubbles'] = hospital.get_bubbles()
+    print(res)
+    return json.dumps(res)
 
 
 @app.route('/', methods=['GET'])

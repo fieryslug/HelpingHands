@@ -1,25 +1,24 @@
 from api import cache_interface as ci
 import datetime
 from matplotlib import pyplot as plt
-from utils import time as times
+from utils import time as times, country as country_util
 import time as time
-from constants.countries import country_code
-
+import json
 
 
 info = 'EEDI index'
 colormap = {
-    'ED4': '#FF0016',
-    'ED3': '#FF5564',
-    'ED2': '#FF99A1',
-    'ED1': '#FFC8CC',
-    'ED0': '#FF2630',
-    'Null': '#FFFFFF',
-    'EW0': '#C7CDFF',
-    'EW1': '#ACB4FF',
-    'EW2': '#8588FF',
-    'EW3': '#5F5DFF',
-    'EW4': '#0829FF'
+    'ED4': '#FF3C00',
+    'ED3': '#FF7518',
+    'ED2': '#FFC238',
+    'ED1': '#F4FF43',
+    'ED0': '#B6FF43',
+    'Neutral': '#23FF13',
+    'EW0': '#5AFF93',
+    'EW1': '#61FFD1',
+    'EW2': '#50DEFF',
+    'EW3': '#2D82FF',
+    'EW4': '#221BFF'
 }
 
 def ee(daily):
@@ -73,7 +72,7 @@ def get_name(eddi):
     if eddi <= 0.3:
         return 'EW0'
     if eddi <= 0.7:
-        return 'Null'
+        return 'Neutral'
     if eddi <= 0.8:
         return 'ED0'
     if eddi <= 0.9:
@@ -95,17 +94,25 @@ def recent(loc):
     return get_name(eddi(loc, e))
 
 
-def get_geography():
-    res = []
+def calculate_and_save():
     countries = ci.get_available_countries()
+    res = []
     for country in countries:
         a = recent(country)
         d = dict()
-        d['country'] = country_code[country]
+        d['country'] = country_util.get_code(country)
         d['color'] = colormap[a]
         d['info'] = a
+        d['index'] = a
         res.append(d)
-    return res
+    with open('saved/drought_geo.json', 'w+') as f:
+        json.dump(res, f, indent=4)
+
+
+def get_geography():
+    with open('saved/drought_geo.json', 'r') as f:
+        j = json.load(f)
+    return j
 
 
 def get_bubbles():

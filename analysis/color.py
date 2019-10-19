@@ -30,3 +30,25 @@ def indexRGB(data1,data2,data3,data4,data5):
        r = y
     s1 = '#' + str(hex(r)[2:]) + str(hex(x+y)[2:]) + str(hex(b)[2:])
     return(s1)
+
+
+def toRGB(r, g, b):
+    s = '#'
+    if r < 16:
+        s += '0'
+    s += hex(r)[2:]
+    if g < 16:
+        s += '0'
+    s += hex(g)[2:]
+    if b < 16:
+        s += '0'
+    s += hex(b)[2:]
+    return s.upper()
+
+
+def interpol(color1, color2, a):
+    color = [0, 0, 0]
+    for i in range(3):
+        color[i] = int(color1[i] * (1-a) + color2[i] * a)
+
+    return color

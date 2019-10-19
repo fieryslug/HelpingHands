@@ -1,0 +1,518 @@
+[
+    {
+        "country": "BFA",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "unknown",
+        "color": "#FFC238",
+        "info": "ED2",
+        "index": "ED2"
+    },
+    {
+        "country": "DZA",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "CYP",
+        "color": "#F4FF43",
+        "info": "ED1",
+        "index": "ED1"
+    },
+    {
+        "country": "ZWE",
+        "color": "#FF7518",
+        "info": "ED3",
+        "index": "ED3"
+    },
+    {
+        "country": "TJK",
+        "color": "#FFC238",
+        "info": "ED2",
+        "index": "ED2"
+    },
+    {
+        "country": "FJI",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "BTN",
+        "color": "#FFC238",
+        "info": "ED2",
+        "index": "ED2"
+    },
+    {
+        "country": "AFG",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "VUT",
+        "color": "#FF3C00",
+        "info": "ED4",
+        "index": "ED4"
+    },
+    {
+        "country": "COM",
+        "color": "#FFC238",
+        "info": "ED2",
+        "index": "ED2"
+    },
+    {
+        "country": "HTI",
+        "color": "#FF7518",
+        "info": "ED3",
+        "index": "ED3"
+    },
+    {
+        "country": "GUY",
+        "color": "#FFC238",
+        "info": "ED2",
+        "index": "ED2"
+    },
+    {
+        "country": "CMR",
+        "color": "#61FFD1",
+        "info": "EW1",
+        "index": "EW1"
+    },
+    {
+        "country": "CZE",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "GRC",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "EGY",
+        "color": "#FF7518",
+        "info": "ED3",
+        "index": "ED3"
+    },
+    {
+        "country": "ZMB",
+        "color": "#FF3C00",
+        "info": "ED4",
+        "index": "ED4"
+    },
+    {
+        "country": "USA",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "AGO",
+        "color": "#61FFD1",
+        "info": "EW1",
+        "index": "EW1"
+    },
+    {
+        "country": "BRB",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "CUB",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "URY",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "ARG",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "BGR",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "COL",
+        "color": "#FFC238",
+        "info": "ED2",
+        "index": "ED2"
+    },
+    {
+        "country": "ETH",
+        "color": "#5AFF93",
+        "info": "EW0",
+        "index": "EW0"
+    },
+    {
+        "country": "GNB",
+        "color": "#61FFD1",
+        "info": "EW1",
+        "index": "EW1"
+    },
+    {
+        "country": "VAT",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "CAF",
+        "color": "#5AFF93",
+        "info": "EW0",
+        "index": "EW0"
+    },
+    {
+        "country": "GAB",
+        "color": "#61FFD1",
+        "info": "EW1",
+        "index": "EW1"
+    },
+    {
+        "country": "GNQ",
+        "color": "#FFC238",
+        "info": "ED2",
+        "index": "ED2"
+    },
+    {
+        "country": "GIN",
+        "color": "#61FFD1",
+        "info": "EW1",
+        "index": "EW1"
+    },
+    {
+        "country": "CRI",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "FRA",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "BHR",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "DJI",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "YEM",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "AUS",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "HRV",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "DNK",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "AZE",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "ECU",
+        "color": "#FFC238",
+        "info": "ED2",
+        "index": "ED2"
+    },
+    {
+        "country": "GMB",
+        "color": "#2D82FF",
+        "info": "EW3",
+        "index": "EW3"
+    },
+    {
+        "country": "DOM",
+        "color": "#F4FF43",
+        "info": "ED1",
+        "index": "ED1"
+    },
+    {
+        "country": "BHS",
+        "color": "#F4FF43",
+        "info": "ED1",
+        "index": "ED1"
+    },
+    {
+        "country": "ALB",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "VNM",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "GHA",
+        "color": "#5AFF93",
+        "info": "EW0",
+        "index": "EW0"
+    },
+    {
+        "country": "BRA",
+        "color": "#FF7518",
+        "info": "ED3",
+        "index": "ED3"
+    },
+    {
+        "country": "DEU",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "BLR",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "GRD",
+        "color": "#FF7518",
+        "info": "ED3",
+        "index": "ED3"
+    },
+    {
+        "country": "AUT",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "HUN",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "VEN",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "UZB",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "TGO",
+        "color": "#5AFF93",
+        "info": "EW0",
+        "index": "EW0"
+    },
+    {
+        "country": "HND",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "THA",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "GEO",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "ATG",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "TZA",
+        "color": "#F4FF43",
+        "info": "ED1",
+        "index": "ED1"
+    },
+    {
+        "country": "ERI",
+        "color": "#50DEFF",
+        "info": "EW2",
+        "index": "EW2"
+    },
+    {
+        "country": "FIN",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "EST",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "BDI",
+        "color": "#FFC238",
+        "info": "ED2",
+        "index": "ED2"
+    },
+    {
+        "country": "TCD",
+        "color": "#5AFF93",
+        "info": "EW0",
+        "index": "EW0"
+    },
+    {
+        "country": "BRN",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "CHL",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "GTM",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "CAN",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "BIH",
+        "color": "#F4FF43",
+        "info": "ED1",
+        "index": "ED1"
+    },
+    {
+        "country": "DMA",
+        "color": "#F4FF43",
+        "info": "ED1",
+        "index": "ED1"
+    },
+    {
+        "country": "BWA",
+        "color": "#FFC238",
+        "info": "ED2",
+        "index": "ED2"
+    },
+    {
+        "country": "CPV",
+        "color": "#FF7518",
+        "info": "ED3",
+        "index": "ED3"
+    },
+    {
+        "country": "SLV",
+        "color": "#50DEFF",
+        "info": "EW2",
+        "index": "EW2"
+    },
+    {
+        "country": "COG",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "TWN",
+        "color": "#FF7518",
+        "info": "ED3",
+        "index": "ED3"
+    },
+    {
+        "country": "BGD",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "ARM",
+        "color": "#F4FF43",
+        "info": "ED1",
+        "index": "ED1"
+    },
+    {
+        "country": "CHN",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "BEL",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "BEN",
+        "color": "#61FFD1",
+        "info": "EW1",
+        "index": "EW1"
+    },
+    {
+        "country": "BLZ",
+        "color": "#FFC238",
+        "info": "ED2",
+        "index": "ED2"
+    },
+    {
+        "country": "KHM",
+        "color": "#5AFF93",
+        "info": "EW0",
+        "index": "EW0"
+    }
+]

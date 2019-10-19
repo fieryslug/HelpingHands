@@ -2,6 +2,7 @@ from utils import time, data_manipulating as dm
 from api import api_request, apis
 import datetime
 import json
+import os
 from json import JSONDecodeError
 
 
@@ -40,3 +41,13 @@ def read(loc):
     for daily in r:
        res.append(dm.assemble(dm.KEY6, daily))
     return res
+
+
+def get_available_countries():
+    c = os.listdir('cache/wwo/past-weather')
+
+    for i in range(len(c)):
+        if c[i].endswith('.json'):
+            c[i] = c[i][:-5]
+
+    return c

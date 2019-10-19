@@ -6,6 +6,8 @@ from pprint import pprint
 from constants.countries import countries
 from analysis import drought, heat
 
-a = api_request.make_request_wwo(apis.wwo.historical_local, 'congo {democratic rep}', dict())
+
+a = ci.read('gambia')
 pprint(a)
+
 

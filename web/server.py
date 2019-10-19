@@ -2,7 +2,7 @@ from flask import Flask, request
 import web.configs as configs
 import api.api_request as utils
 from analysis import drought, heat, health
-
+import json
 
 app = Flask(__name__)
 context = configs.SSL_CONTEXT
@@ -25,13 +25,17 @@ def handle_api():
 
     data = request.json
     print(data)
+
+    with open('cache/datasets/drought.json', 'r') as f:
+        s = json.load(f)
+    
     res = dict()
 
     res['title'] = 'Drought'
     res['info'] = drought.info
-    res['geography'] = drought.get_geography()
-    res['bubble'] = drought.get_bubbles()
-    return str(res)
+    #res['geography'] = drought.get_geography()
+    #res['bubble'] = drought.get_bubbles()
+    return str(s)
 
 
 @app.route('/', methods=['GET'])

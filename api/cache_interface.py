@@ -37,7 +37,10 @@ def crawl_and_save(loc, date_i, date_f):
 def read(loc):
     res = []
     with open('cache/wwo/past-weather/' + loc + '.json', 'r') as f:
-        r = json.load(f)
+        try:
+            r = json.load(f)
+        except JSONDecodeError:
+            print(loc)
     for daily in r:
        res.append(dm.assemble(dm.KEY6, daily))
     return res

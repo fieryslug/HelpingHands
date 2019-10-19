@@ -25,5 +25,5 @@ def make_request_wwo(api_name, loc, query):
     query['format'] = 'json'
     r = requests.get('http://api.worldweatheronline.com/premium/v1/{}.ashx'.format(api_name), query)
 
-    print(r.url)
+    print(r.url + " : " + str(r))
     return r.json()

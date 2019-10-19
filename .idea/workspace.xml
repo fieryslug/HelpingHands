@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d10efc68-d4b1-48ee-957d-8c53f52b5d7a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/statics/test" beforeDir="false" afterPath="$PROJECT_DIR$/static/test.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,9 +154,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.server" />
         <item itemvalue="Python.sandbox (2)" />
         <item itemvalue="Python.sandbox (1)" />
-        <item itemvalue="Python.server" />
         <item itemvalue="Python.utils" />
       </list>
     </recent_temporary>
@@ -193,8 +195,8 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/2019nasa$server.coverage" NAME="server Coverage Results" MODIFIED="1571419126582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web" />
-    <SUITE FILE_PATH="coverage/2019nasa$main.coverage" NAME="main Coverage Results" MODIFIED="1571471057159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/2019nasa$server.coverage" NAME="server Coverage Results" MODIFIED="1571479587607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web" />
+    <SUITE FILE_PATH="coverage/2019nasa$main.coverage" NAME="main Coverage Results" MODIFIED="1571480292145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2019nasa$sandbox__2_.coverage" NAME="sandbox (2) Coverage Results" MODIFIED="1571468783790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2019nasa$utils.coverage" NAME="utils Coverage Results" MODIFIED="1571418300394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api" />
     <SUITE FILE_PATH="coverage/2019nasa$sandbox.coverage" NAME="sandbox Coverage Results" MODIFIED="1571415576935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />

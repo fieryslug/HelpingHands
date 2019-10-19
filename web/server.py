@@ -9,12 +9,6 @@ context = configs.SSL_CONTEXT
 path = 'https://cms.nehs.hc.edu.tw:50043'
 
 
-@app.route('/', methods=['GET'])
-
-@app.route('/static/<path:path>')
-def send_file(path):
-    return send_from_directory('statics', path)
-
 @app.route('/list.json', methods=['GET', 'POST'])
 def handle_list():
     res = [
@@ -51,4 +45,4 @@ def handle_get():
 
 
 def run_server():
-    app.run(host='0.0.0.0', port=configs.PORT, debug=True, ssl_context=configs.SSL_CONTEXT)
+    app.run(host='0.0.0.0', port=configs.PORT, debug=True)

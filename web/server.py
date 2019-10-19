@@ -6,29 +6,32 @@ from analysis import drought, heat, health
 
 app = Flask(__name__)
 context = configs.SSL_CONTEXT
-
+path = 'https://cms.nehs.hc.edu.tw:50043'
 
 @app.route('/list.json', methods=['GET', 'POST'])
 def handle_list():
     res = [
         {
             'title': 'Drought',
-            'src': '/api.json?dataset=Drought'
+            'src': path + '/api.json?dataset=Drought'
         }
     ]
-    return res
+    print(request)
+    return str(res)
 
 
-@app.route('/api.json/Drought', methods=['GET'])
+@app.route('/api.json', methods=['POST', 'GET'])
 def handle_api():
 
+    data = request.json
+    print(data)
     res = dict()
 
     res['title'] = 'Drought'
     res['info'] = drought.info
     res['geography'] = drought.get_geography()
     res['bubble'] = drought.get_bubbles()
-    return res
+    return str(res)
 
 
 @app.route('/', methods=['GET'])

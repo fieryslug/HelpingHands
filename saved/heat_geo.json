@@ -1,0 +1,432 @@
+[
+    {
+        "country": "BFA",
+        "color": "#D86A68",
+        "info": "112.7"
+    },
+    {
+        "country": "unknown",
+        "color": "#D46C6C",
+        "info": "107.6"
+    },
+    {
+        "country": "DZA",
+        "color": "#C87077",
+        "info": "97.6"
+    },
+    {
+        "country": "CYP",
+        "color": "#C77078",
+        "info": "97.2"
+    },
+    {
+        "country": "ZWE",
+        "color": "#C0737F",
+        "info": "92.5"
+    },
+    {
+        "country": "TJK",
+        "color": "#C2737D",
+        "info": "93.7"
+    },
+    {
+        "country": "FJI",
+        "color": "#CF6D70",
+        "info": "102.9"
+    },
+    {
+        "country": "BTN",
+        "color": "#9783A6",
+        "info": "72.1"
+    },
+    {
+        "country": "AFG",
+        "color": "#B77787",
+        "info": "87.4"
+    },
+    {
+        "country": "VUT",
+        "color": "#BF747F",
+        "info": "92.0"
+    },
+    {
+        "country": "COM",
+        "color": "#C67178",
+        "info": "96.6"
+    },
+    {
+        "country": "HTI",
+        "color": "#D66B6A",
+        "info": "110.1"
+    },
+    {
+        "country": "GUY",
+        "color": "#D76A68",
+        "info": "112.2"
+    },
+    {
+        "country": "CMR",
+        "color": "#C1737D",
+        "info": "93.3"
+    },
+    {
+        "country": "CZE",
+        "color": "#9186AB",
+        "info": "69.6"
+    },
+    {
+        "country": "GRC",
+        "color": "#9B82A2",
+        "info": "74.1"
+    },
+    {
+        "country": "EGY",
+        "color": "#D36C6C",
+        "info": "107.1"
+    },
+    {
+        "country": "ZMB",
+        "color": "#C97076",
+        "info": "98.3"
+    },
+    {
+        "country": "USA",
+        "color": "#B0798D",
+        "info": "84.1"
+    },
+    {
+        "country": "AGO",
+        "color": "#C3727C",
+        "info": "94.2"
+    },
+    {
+        "country": "BRB",
+        "color": "#D16D6E",
+        "info": "104.9"
+    },
+    {
+        "country": "CUB",
+        "color": "#D36C6D",
+        "info": "106.6"
+    },
+    {
+        "country": "URY",
+        "color": "#9D81A0",
+        "info": "75.0"
+    },
+    {
+        "country": "ARG",
+        "color": "#AB7C93",
+        "info": "81.4"
+    },
+    {
+        "country": "BGR",
+        "color": "#AA7C93",
+        "info": "81.1"
+    },
+    {
+        "country": "COL",
+        "color": "#A1809C",
+        "info": "76.7"
+    },
+    {
+        "country": "ETH",
+        "color": "#9D81A0",
+        "info": "75.2"
+    },
+    {
+        "country": "GNB",
+        "color": "#D36C6C",
+        "info": "106.8"
+    },
+    {
+        "country": "VAT",
+        "color": "#BD7481",
+        "info": "90.9"
+    },
+    {
+        "country": "CAF",
+        "color": "#BB7583",
+        "info": "89.9"
+    },
+    {
+        "country": "GAB",
+        "color": "#C5717A",
+        "info": "95.8"
+    },
+    {
+        "country": "GNQ",
+        "color": "#C4727A",
+        "info": "95.3"
+    },
+    {
+        "country": "GIN",
+        "color": "#CC6E73",
+        "info": "100.8"
+    },
+    {
+        "country": "CRI",
+        "color": "#BB7583",
+        "info": "89.6"
+    },
+    {
+        "country": "FRA",
+        "color": "#9F809E",
+        "info": "76.0"
+    },
+    {
+        "country": "BHR",
+        "color": "#DE6862",
+        "info": "122.5"
+    },
+    {
+        "country": "DJI",
+        "color": "#D96966",
+        "info": "114.7"
+    },
+    {
+        "country": "YEM",
+        "color": "#B2798C",
+        "info": "84.9"
+    },
+    {
+        "country": "AUS",
+        "color": "#9584A7",
+        "info": "71.4"
+    },
+    {
+        "country": "HRV",
+        "color": "#A57E99",
+        "info": "78.6"
+    },
+    {
+        "country": "DNK",
+        "color": "#868AB6",
+        "info": "64.2"
+    },
+    {
+        "country": "AZE",
+        "color": "#B4788A",
+        "info": "85.7"
+    },
+    {
+        "country": "ECU",
+        "color": "#9E819F",
+        "info": "75.4"
+    },
+    {
+        "country": "GMB",
+        "color": "#D06D6F",
+        "info": "104.0"
+    },
+    {
+        "country": "DOM",
+        "color": "#D56B6A",
+        "info": "109.2"
+    },
+    {
+        "country": "BHS",
+        "color": "#CB6F74",
+        "info": "100.2"
+    },
+    {
+        "country": "ALB",
+        "color": "#BB7583",
+        "info": "89.7"
+    },
+    {
+        "country": "VNM",
+        "color": "#D66B6A",
+        "info": "110.1"
+    },
+    {
+        "country": "GHA",
+        "color": "#CD6E72",
+        "info": "101.2"
+    },
+    {
+        "country": "BRA",
+        "color": "#CC6F73",
+        "info": "100.5"
+    },
+    {
+        "country": "DEU",
+        "color": "#9484A8",
+        "info": "71.0"
+    },
+    {
+        "country": "BLR",
+        "color": "#7E8DBD",
+        "info": "59.9"
+    },
+    {
+        "country": "GRD",
+        "color": "#D16C6E",
+        "info": "105.5"
+    },
+    {
+        "country": "AUT",
+        "color": "#9A82A3",
+        "info": "73.6"
+    },
+    {
+        "country": "HUN",
+        "color": "#A27F9B",
+        "info": "77.2"
+    },
+    {
+        "country": "VEN",
+        "color": "#BC7582",
+        "info": "90.4"
+    },
+    {
+        "country": "UZB",
+        "color": "#C3727C",
+        "info": "94.1"
+    },
+    {
+        "country": "TGO",
+        "color": "#D06D70",
+        "info": "103.7"
+    },
+    {
+        "country": "HND",
+        "color": "#C3727B",
+        "info": "94.6"
+    },
+    {
+        "country": "THA",
+        "color": "#D96A67",
+        "info": "114.0"
+    },
+    {
+        "country": "GEO",
+        "color": "#B1798D",
+        "info": "84.4"
+    },
+    {
+        "country": "ATG",
+        "color": "#8989B3",
+        "info": "65.4"
+    },
+    {
+        "country": "TZA",
+        "color": "#C4727B",
+        "info": "94.8"
+    },
+    {
+        "country": "ERI",
+        "color": "#AD7B91",
+        "info": "82.3"
+    },
+    {
+        "country": "FIN",
+        "color": "#7690C5",
+        "info": "55.0"
+    },
+    {
+        "country": "EST",
+        "color": "#788FC3",
+        "info": "56.5"
+    },
+    {
+        "country": "BDI",
+        "color": "#C67179",
+        "info": "96.4"
+    },
+    {
+        "country": "TCD",
+        "color": "#D66B6A",
+        "info": "110.1"
+    },
+    {
+        "country": "BRN",
+        "color": "#D46B6B",
+        "info": "108.4"
+    },
+    {
+        "country": "CHL",
+        "color": "#9385A9",
+        "info": "70.6"
+    },
+    {
+        "country": "GTM",
+        "color": "#B87686",
+        "info": "88.3"
+    },
+    {
+        "country": "CAN",
+        "color": "#9285AA",
+        "info": "70.0"
+    },
+    {
+        "country": "BIH",
+        "color": "#B1798D",
+        "info": "84.2"
+    },
+    {
+        "country": "DMA",
+        "color": "#D06D6F",
+        "info": "104.3"
+    },
+    {
+        "country": "BWA",
+        "color": "#C97075",
+        "info": "98.8"
+    },
+    {
+        "country": "CPV",
+        "color": "#C4727B",
+        "info": "95.0"
+    },
+    {
+        "country": "SLV",
+        "color": "#C67179",
+        "info": "96.5"
+    },
+    {
+        "country": "COG",
+        "color": "#D36C6C",
+        "info": "106.9"
+    },
+    {
+        "country": "TWN",
+        "color": "#D36C6C",
+        "info": "107.3"
+    },
+    {
+        "country": "BGD",
+        "color": "#D96967",
+        "info": "114.3"
+    },
+    {
+        "country": "ARM",
+        "color": "#BE7480",
+        "info": "91.5"
+    },
+    {
+        "country": "CHN",
+        "color": "#BC7583",
+        "info": "90.0"
+    },
+    {
+        "country": "BEL",
+        "color": "#9584A8",
+        "info": "71.1"
+    },
+    {
+        "country": "BEN",
+        "color": "#CF6D70",
+        "info": "103.0"
+    },
+    {
+        "country": "BLZ",
+        "color": "#D96A67",
+        "info": "113.9"
+    },
+    {
+        "country": "KHM",
+        "color": "#D66A69",
+        "info": "110.7"
+    }
+]

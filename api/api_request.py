@@ -27,3 +27,7 @@ def make_request_wwo(api_name, loc, query):
 
     print(r.url + " : " + str(r))
     return r.json()
+
+
+def make_request_quake():
+    pass

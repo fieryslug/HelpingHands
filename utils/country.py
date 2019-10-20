@@ -10,7 +10,7 @@ special = {
     'czechrepublic': 'CZE',
     'antigua&deps': 'ATG',
     'capeverde': 'CPV',
-    'eattimor': 'TLS',
+    'easttimor': 'TLS',
     'bosniaherzegovina': 'BIH'
 }
 

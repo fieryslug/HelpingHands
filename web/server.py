@@ -1,7 +1,9 @@
 from flask import Flask, request, send_from_directory
 import web.configs as configs
 import api.api_request as utils
-from analysis import drought, heat, health, hospital, earthquake
+
+from analysis import drought, heat, health, hospital, earthquake, uv
+
 import json
 from pprint import pprint
 
@@ -11,16 +13,16 @@ context = configs.SSL_CONTEXT
 path = 'https://cms.nehs.hc.edu.tw:50043'
 
 
+@app.route('/', methods=['GET'])
+def handle_get():
+    return send_from_directory('templates', 'index.html')
+
 @app.route('/list.json', methods=['GET', 'POST'])
 def handle_list():
     res = [
         {
             'title': 'Drought',
             'src': '/api.json?dataset=Drought'
-        },
-        {
-            'title': 'Health Center Density',
-            'src': '/api.json?dataset=HealthCenterDensity'
         },
         {
             'title': 'Heat Index',
@@ -31,8 +33,12 @@ def handle_list():
             'src': '/api.json?dataset=Hospital'
         },
         {
-            'title': 'Eqrthquake',
+            'title': 'Earthquakes',
             'src': '/api.json?dataset=Earthquake'
+        },
+        {
+            'title': 'UV Index',
+            'src': '/api.json?dataset=UVIndex'
         }
     ]
     print(request)
@@ -44,6 +50,7 @@ def handle_api():
 
     res = dict()
     dataset = request.args.get('dataset')
+
     if dataset == 'Drought':
         res['title'] = 'Drought'
         res['info'] = 'EEDI'
@@ -60,23 +67,24 @@ def handle_api():
         res['geography'] = heat.get_geography()
         res['bubbles'] = heat.get_bubbles()
     if dataset == 'Hospital':
-        res['title'] = 'Hospital'
-        res['info'] = 'hospitals'
+        res['title'] = 'Hospitals'
+        res['info'] = 'The number of beds per one thousand residents.'
         res['geography'] = hospital.get_geography()
         res['bubbles'] = hospital.get_bubbles()
     if dataset == 'Earthquake':
         res['title'] = 'Earthquakes'
         res['info'] = 'Earthquakes of magnitude greater than 6 since May 2019'
-        res['geography'] = []
-        res['bubbles'] = earthquake.get_bubbles()    
+        res['geography'] = []   
+        res['bubbles'] = earthquake.get_bubbles()
+    if dataset == 'UVIndex':
+        res['title'] = 'UVIndex'
+        res['info'] = 'Ultraviolet radiation index'
+        res['geography'] = uv.get_geography()
+        res['bubbles'] = uv.get_bubbles()
+
     print(res)
 
     return json.dumps(res)
-
-
-@app.route('/', methods=['GET'])
-def handle_get():
-    return send_from_directory('templates', 'index.html')
 
 
 def run_server():

@@ -1,516 +1,1071 @@
 [
     {
+        "country": "NONE",
+        "modal_info": "<br><img src='/generated/drought/kosovo.png'>",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
         "country": "BFA",
+        "modal_info": "<br><img src='/generated/drought/burkina.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
-        "country": "unknown",
+        "country": "MHL",
+        "modal_info": "<br><img src='/generated/drought/marshall islands.png'>",
+        "color": "#FF7518",
+        "info": "ED3",
+        "index": "ED3"
+    },
+    {
+        "country": "TLS",
+        "modal_info": "<br><img src='/generated/drought/east timor.png'>",
         "color": "#FFC238",
         "info": "ED2",
         "index": "ED2"
     },
     {
         "country": "DZA",
+        "modal_info": "<br><img src='/generated/drought/algeria.png'>",
         "color": "#B6FF43",
         "info": "ED0",
         "index": "ED0"
     },
     {
         "country": "CYP",
+        "modal_info": "<br><img src='/generated/drought/cyprus.png'>",
         "color": "#F4FF43",
         "info": "ED1",
         "index": "ED1"
     },
     {
+        "country": "LUX",
+        "modal_info": "<br><img src='/generated/drought/luxembourg.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
         "country": "ZWE",
+        "modal_info": "<br><img src='/generated/drought/zimbabwe.png'>",
         "color": "#FF7518",
         "info": "ED3",
         "index": "ED3"
     },
     {
         "country": "TJK",
+        "modal_info": "<br><img src='/generated/drought/tajikistan.png'>",
         "color": "#FFC238",
         "info": "ED2",
         "index": "ED2"
     },
     {
+        "country": "LBN",
+        "modal_info": "<br><img src='/generated/drought/lebanon.png'>",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "IND",
+        "modal_info": "<br><img src='/generated/drought/india.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "KWT",
+        "modal_info": "<br><img src='/generated/drought/kuwait.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "LSO",
+        "modal_info": "<br><img src='/generated/drought/lesotho.png'>",
+        "color": "#FF7518",
+        "info": "ED3",
+        "index": "ED3"
+    },
+    {
         "country": "FJI",
+        "modal_info": "<br><img src='/generated/drought/fiji.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "BTN",
+        "modal_info": "<br><img src='/generated/drought/bhutan.png'>",
         "color": "#FFC238",
         "info": "ED2",
         "index": "ED2"
     },
     {
+        "country": "MEX",
+        "modal_info": "<br><img src='/generated/drought/mexico.png'>",
+        "color": "#F4FF43",
+        "info": "ED1",
+        "index": "ED1"
+    },
+    {
         "country": "AFG",
+        "modal_info": "<br><img src='/generated/drought/afghanistan.png'>",
         "color": "#B6FF43",
         "info": "ED0",
         "index": "ED0"
     },
     {
         "country": "VUT",
+        "modal_info": "<br><img src='/generated/drought/vanuatu.png'>",
         "color": "#FF3C00",
         "info": "ED4",
         "index": "ED4"
     },
     {
         "country": "COM",
+        "modal_info": "<br><img src='/generated/drought/comoros.png'>",
         "color": "#FFC238",
         "info": "ED2",
         "index": "ED2"
     },
     {
         "country": "HTI",
+        "modal_info": "<br><img src='/generated/drought/haiti.png'>",
         "color": "#FF7518",
         "info": "ED3",
         "index": "ED3"
     },
     {
         "country": "GUY",
+        "modal_info": "<br><img src='/generated/drought/guyana.png'>",
         "color": "#FFC238",
         "info": "ED2",
         "index": "ED2"
     },
     {
+        "country": "KEN",
+        "modal_info": "<br><img src='/generated/drought/kenya.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
         "country": "CMR",
+        "modal_info": "<br><img src='/generated/drought/cameroon.png'>",
         "color": "#61FFD1",
         "info": "EW1",
         "index": "EW1"
     },
     {
         "country": "CZE",
+        "modal_info": "<br><img src='/generated/drought/czech republic.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "GRC",
+        "modal_info": "<br><img src='/generated/drought/greece.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "EGY",
+        "modal_info": "<br><img src='/generated/drought/egypt.png'>",
         "color": "#FF7518",
         "info": "ED3",
         "index": "ED3"
     },
     {
+        "country": "NER",
+        "modal_info": "<br><img src='/generated/drought/niger.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
         "country": "ZMB",
+        "modal_info": "<br><img src='/generated/drought/zambia.png'>",
         "color": "#FF3C00",
         "info": "ED4",
         "index": "ED4"
     },
     {
+        "country": "MRT",
+        "modal_info": "<br><img src='/generated/drought/mauritania.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "NPL",
+        "modal_info": "<br><img src='/generated/drought/nepal.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
         "country": "USA",
+        "modal_info": "<br><img src='/generated/drought/united states.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "AGO",
+        "modal_info": "<br><img src='/generated/drought/angola.png'>",
         "color": "#61FFD1",
         "info": "EW1",
         "index": "EW1"
     },
     {
+        "country": "LBY",
+        "modal_info": "<br><img src='/generated/drought/libya.png'>",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "MDV",
+        "modal_info": "<br><img src='/generated/drought/maldives.png'>",
+        "color": "#FF7518",
+        "info": "ED3",
+        "index": "ED3"
+    },
+    {
         "country": "BRB",
+        "modal_info": "<br><img src='/generated/drought/barbados.png'>",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "unknown",
+        "modal_info": "<br><img src='/generated/drought/korea south.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "IRQ",
+        "modal_info": "<br><img src='/generated/drought/iraq.png'>",
         "color": "#B6FF43",
         "info": "ED0",
         "index": "ED0"
     },
     {
         "country": "CUB",
+        "modal_info": "<br><img src='/generated/drought/cuba.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "URY",
+        "modal_info": "<br><img src='/generated/drought/uruguay.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "ARG",
+        "modal_info": "<br><img src='/generated/drought/argentina.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
+        "country": "NRU",
+        "modal_info": "<br><img src='/generated/drought/nauru.png'>",
+        "color": "#FF7518",
+        "info": "ED3",
+        "index": "ED3"
+    },
+    {
         "country": "BGR",
+        "modal_info": "<br><img src='/generated/drought/bulgaria.png'>",
         "color": "#B6FF43",
         "info": "ED0",
         "index": "ED0"
     },
     {
         "country": "COL",
+        "modal_info": "<br><img src='/generated/drought/colombia.png'>",
         "color": "#FFC238",
         "info": "ED2",
         "index": "ED2"
     },
     {
         "country": "ETH",
+        "modal_info": "<br><img src='/generated/drought/ethiopia.png'>",
         "color": "#5AFF93",
         "info": "EW0",
         "index": "EW0"
     },
     {
+        "country": "JAM",
+        "modal_info": "<br><img src='/generated/drought/jamaica.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "ITA",
+        "modal_info": "<br><img src='/generated/drought/italy.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
         "country": "GNB",
+        "modal_info": "<br><img src='/generated/drought/guinea-bissau.png'>",
         "color": "#61FFD1",
         "info": "EW1",
         "index": "EW1"
     },
     {
         "country": "VAT",
+        "modal_info": "<br><img src='/generated/drought/vatican city.png'>",
         "color": "#B6FF43",
         "info": "ED0",
         "index": "ED0"
     },
     {
-        "country": "CAF",
+        "country": "LBR",
+        "modal_info": "<br><img src='/generated/drought/liberia.png'>",
         "color": "#5AFF93",
         "info": "EW0",
         "index": "EW0"
     },
     {
+        "country": "LIE",
+        "modal_info": "<br><img src='/generated/drought/liechtenstein.png'>",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "KAZ",
+        "modal_info": "<br><img src='/generated/drought/kazakhstan.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "PRY",
+        "modal_info": "<br><img src='/generated/drought/paraguay.png'>",
+        "color": "#F4FF43",
+        "info": "ED1",
+        "index": "ED1"
+    },
+    {
+        "country": "CAF",
+        "modal_info": "<br><img src='/generated/drought/central african rep.png'>",
+        "color": "#5AFF93",
+        "info": "EW0",
+        "index": "EW0"
+    },
+    {
+        "country": "MLT",
+        "modal_info": "<br><img src='/generated/drought/malta.png'>",
+        "color": "#FFC238",
+        "info": "ED2",
+        "index": "ED2"
+    },
+    {
+        "country": "MDG",
+        "modal_info": "<br><img src='/generated/drought/madagascar.png'>",
+        "color": "#FF7518",
+        "info": "ED3",
+        "index": "ED3"
+    },
+    {
         "country": "GAB",
+        "modal_info": "<br><img src='/generated/drought/gabon.png'>",
         "color": "#61FFD1",
         "info": "EW1",
         "index": "EW1"
     },
     {
+        "country": "NLD",
+        "modal_info": "<br><img src='/generated/drought/netherlands.png'>",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "IRN",
+        "modal_info": "<br><img src='/generated/drought/iran.png'>",
+        "color": "#F4FF43",
+        "info": "ED1",
+        "index": "ED1"
+    },
+    {
+        "country": "ISL",
+        "modal_info": "<br><img src='/generated/drought/iceland.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
         "country": "GNQ",
+        "modal_info": "<br><img src='/generated/drought/equatorial guinea.png'>",
         "color": "#FFC238",
         "info": "ED2",
         "index": "ED2"
     },
     {
         "country": "GIN",
+        "modal_info": "<br><img src='/generated/drought/guinea.png'>",
         "color": "#61FFD1",
         "info": "EW1",
         "index": "EW1"
     },
     {
         "country": "CRI",
+        "modal_info": "<br><img src='/generated/drought/costa rica.png'>",
         "color": "#B6FF43",
         "info": "ED0",
         "index": "ED0"
     },
     {
         "country": "FRA",
+        "modal_info": "<br><img src='/generated/drought/france.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "BHR",
+        "modal_info": "<br><img src='/generated/drought/bahrain.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "DJI",
+        "modal_info": "<br><img src='/generated/drought/djibouti.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
+    },
+    {
+        "country": "unknown",
+        "modal_info": "<br><img src='/generated/drought/myanmar, {burma}.png'>",
+        "color": "#F4FF43",
+        "info": "ED1",
+        "index": "ED1"
     },
     {
         "country": "YEM",
+        "modal_info": "<br><img src='/generated/drought/yemen.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
+    },
+    {
+        "country": "MDA",
+        "modal_info": "<br><img src='/generated/drought/moldova.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "IDN",
+        "modal_info": "<br><img src='/generated/drought/indonesia.png'>",
+        "color": "#F4FF43",
+        "info": "ED1",
+        "index": "ED1"
     },
     {
         "country": "AUS",
+        "modal_info": "<br><img src='/generated/drought/australia.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
+        "country": "JPN",
+        "modal_info": "<br><img src='/generated/drought/japan.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "NZL",
+        "modal_info": "<br><img src='/generated/drought/new zealand.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "KGZ",
+        "modal_info": "<br><img src='/generated/drought/kyrgyzstan.png'>",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
         "country": "HRV",
+        "modal_info": "<br><img src='/generated/drought/croatia.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "POL",
+        "modal_info": "<br><img src='/generated/drought/poland.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "DNK",
+        "modal_info": "<br><img src='/generated/drought/denmark.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "AZE",
+        "modal_info": "<br><img src='/generated/drought/azerbaijan.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "ECU",
+        "modal_info": "<br><img src='/generated/drought/ecuador.png'>",
         "color": "#FFC238",
         "info": "ED2",
         "index": "ED2"
     },
     {
         "country": "GMB",
+        "modal_info": "<br><img src='/generated/drought/gambia.png'>",
         "color": "#2D82FF",
         "info": "EW3",
         "index": "EW3"
     },
     {
+        "country": "ISR",
+        "modal_info": "<br><img src='/generated/drought/israel.png'>",
+        "color": "#50DEFF",
+        "info": "EW2",
+        "index": "EW2"
+    },
+    {
+        "country": "unknown",
+        "modal_info": "<br><img src='/generated/drought/ireland {republic}.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "PER",
+        "modal_info": "<br><img src='/generated/drought/peru.png'>",
+        "color": "#61FFD1",
+        "info": "EW1",
+        "index": "EW1"
+    },
+    {
+        "country": "FSM",
+        "modal_info": "<br><img src='/generated/drought/micronesia.png'>",
+        "color": "#FF7518",
+        "info": "ED3",
+        "index": "ED3"
+    },
+    {
         "country": "DOM",
+        "modal_info": "<br><img src='/generated/drought/dominican republic.png'>",
         "color": "#F4FF43",
         "info": "ED1",
         "index": "ED1"
     },
     {
         "country": "BHS",
+        "modal_info": "<br><img src='/generated/drought/bahamas.png'>",
+        "color": "#F4FF43",
+        "info": "ED1",
+        "index": "ED1"
+    },
+    {
+        "country": "PLW",
+        "modal_info": "<br><img src='/generated/drought/palau.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "PAN",
+        "modal_info": "<br><img src='/generated/drought/panama.png'>",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "MYS",
+        "modal_info": "<br><img src='/generated/drought/malaysia.png'>",
         "color": "#F4FF43",
         "info": "ED1",
         "index": "ED1"
     },
     {
         "country": "ALB",
+        "modal_info": "<br><img src='/generated/drought/albania.png'>",
         "color": "#B6FF43",
         "info": "ED0",
         "index": "ED0"
     },
     {
         "country": "VNM",
+        "modal_info": "<br><img src='/generated/drought/vietnam.png'>",
         "color": "#B6FF43",
         "info": "ED0",
         "index": "ED0"
     },
     {
+        "country": "NIC",
+        "modal_info": "<br><img src='/generated/drought/nicaragua.png'>",
+        "color": "#61FFD1",
+        "info": "EW1",
+        "index": "EW1"
+    },
+    {
         "country": "GHA",
+        "modal_info": "<br><img src='/generated/drought/ghana.png'>",
         "color": "#5AFF93",
         "info": "EW0",
         "index": "EW0"
     },
     {
         "country": "BRA",
+        "modal_info": "<br><img src='/generated/drought/brazil.png'>",
         "color": "#FF7518",
         "info": "ED3",
         "index": "ED3"
     },
     {
+        "country": "MLI",
+        "modal_info": "<br><img src='/generated/drought/mali.png'>",
+        "color": "#5AFF93",
+        "info": "EW0",
+        "index": "EW0"
+    },
+    {
+        "country": "PAK",
+        "modal_info": "<br><img src='/generated/drought/pakistan.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "OMN",
+        "modal_info": "<br><img src='/generated/drought/oman.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
         "country": "DEU",
+        "modal_info": "<br><img src='/generated/drought/germany.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "BLR",
+        "modal_info": "<br><img src='/generated/drought/belarus.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "GRD",
+        "modal_info": "<br><img src='/generated/drought/grenada.png'>",
         "color": "#FF7518",
         "info": "ED3",
         "index": "ED3"
     },
     {
+        "country": "PRT",
+        "modal_info": "<br><img src='/generated/drought/portugal.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
         "country": "AUT",
+        "modal_info": "<br><img src='/generated/drought/austria.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "HUN",
+        "modal_info": "<br><img src='/generated/drought/hungary.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "VEN",
+        "modal_info": "<br><img src='/generated/drought/venezuela.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "MCO",
+        "modal_info": "<br><img src='/generated/drought/monaco.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "UZB",
+        "modal_info": "<br><img src='/generated/drought/uzbekistan.png'>",
         "color": "#B6FF43",
         "info": "ED0",
         "index": "ED0"
     },
     {
         "country": "TGO",
+        "modal_info": "<br><img src='/generated/drought/togo.png'>",
         "color": "#5AFF93",
         "info": "EW0",
         "index": "EW0"
     },
     {
         "country": "HND",
+        "modal_info": "<br><img src='/generated/drought/honduras.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
+        "country": "MUS",
+        "modal_info": "<br><img src='/generated/drought/mauritius.png'>",
+        "color": "#F4FF43",
+        "info": "ED1",
+        "index": "ED1"
+    },
+    {
         "country": "THA",
+        "modal_info": "<br><img src='/generated/drought/thailand.png'>",
         "color": "#B6FF43",
         "info": "ED0",
         "index": "ED0"
     },
     {
+        "country": "unknown",
+        "modal_info": "<br><img src='/generated/drought/ivory coast.png'>",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "PHL",
+        "modal_info": "<br><img src='/generated/drought/philippines.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "MAR",
+        "modal_info": "<br><img src='/generated/drought/morocco.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
         "country": "GEO",
+        "modal_info": "<br><img src='/generated/drought/georgia.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "ATG",
+        "modal_info": "<br><img src='/generated/drought/antigua & deps.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "TZA",
+        "modal_info": "<br><img src='/generated/drought/tanzania.png'>",
         "color": "#F4FF43",
         "info": "ED1",
         "index": "ED1"
     },
     {
         "country": "ERI",
+        "modal_info": "<br><img src='/generated/drought/eritrea.png'>",
         "color": "#50DEFF",
         "info": "EW2",
         "index": "EW2"
     },
     {
+        "country": "JOR",
+        "modal_info": "<br><img src='/generated/drought/jordan.png'>",
+        "color": "#F4FF43",
+        "info": "ED1",
+        "index": "ED1"
+    },
+    {
         "country": "FIN",
+        "modal_info": "<br><img src='/generated/drought/finland.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "EST",
+        "modal_info": "<br><img src='/generated/drought/estonia.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "BDI",
+        "modal_info": "<br><img src='/generated/drought/burundi.png'>",
         "color": "#FFC238",
         "info": "ED2",
         "index": "ED2"
     },
     {
         "country": "TCD",
+        "modal_info": "<br><img src='/generated/drought/chad.png'>",
         "color": "#5AFF93",
         "info": "EW0",
         "index": "EW0"
     },
     {
+        "country": "unknown",
+        "modal_info": "<br><img src='/generated/drought/korea north.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
         "country": "BRN",
+        "modal_info": "<br><img src='/generated/drought/brunei.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "NOR",
+        "modal_info": "<br><img src='/generated/drought/norway.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "MOZ",
+        "modal_info": "<br><img src='/generated/drought/mozambique.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "MNG",
+        "modal_info": "<br><img src='/generated/drought/mongolia.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "CHL",
+        "modal_info": "<br><img src='/generated/drought/chile.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "GTM",
+        "modal_info": "<br><img src='/generated/drought/guatemala.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
+    },
+    {
+        "country": "LVA",
+        "modal_info": "<br><img src='/generated/drought/latvia.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "PNG",
+        "modal_info": "<br><img src='/generated/drought/papua new guinea.png'>",
+        "color": "#5AFF93",
+        "info": "EW0",
+        "index": "EW0"
     },
     {
         "country": "CAN",
+        "modal_info": "<br><img src='/generated/drought/canada.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
+        "country": "LAO",
+        "modal_info": "<br><img src='/generated/drought/laos.png'>",
+        "color": "#FF7518",
+        "info": "ED3",
+        "index": "ED3"
+    },
+    {
+        "country": "KIR",
+        "modal_info": "<br><img src='/generated/drought/kiribati.png'>",
+        "color": "#FF7518",
+        "info": "ED3",
+        "index": "ED3"
+    },
+    {
         "country": "BIH",
+        "modal_info": "<br><img src='/generated/drought/bosnia herzegovina.png'>",
         "color": "#F4FF43",
         "info": "ED1",
         "index": "ED1"
     },
     {
         "country": "DMA",
+        "modal_info": "<br><img src='/generated/drought/dominica.png'>",
+        "color": "#F4FF43",
+        "info": "ED1",
+        "index": "ED1"
+    },
+    {
+        "country": "NGA",
+        "modal_info": "<br><img src='/generated/drought/nigeria.png'>",
+        "color": "#61FFD1",
+        "info": "EW1",
+        "index": "EW1"
+    },
+    {
+        "country": "MNE",
+        "modal_info": "<br><img src='/generated/drought/montenegro.png'>",
         "color": "#F4FF43",
         "info": "ED1",
         "index": "ED1"
     },
     {
         "country": "BWA",
+        "modal_info": "<br><img src='/generated/drought/botswana.png'>",
+        "color": "#FFC238",
+        "info": "ED2",
+        "index": "ED2"
+    },
+    {
+        "country": "NAM",
+        "modal_info": "<br><img src='/generated/drought/namibia.png'>",
         "color": "#FFC238",
         "info": "ED2",
         "index": "ED2"
     },
     {
         "country": "CPV",
+        "modal_info": "<br><img src='/generated/drought/cape verde.png'>",
         "color": "#FF7518",
         "info": "ED3",
         "index": "ED3"
     },
     {
         "country": "SLV",
+        "modal_info": "<br><img src='/generated/drought/el salvador.png'>",
         "color": "#50DEFF",
         "info": "EW2",
         "index": "EW2"
     },
     {
         "country": "COG",
+        "modal_info": "<br><img src='/generated/drought/congo.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "TWN",
+        "modal_info": "<br><img src='/generated/drought/taiwan.png'>",
         "color": "#FF7518",
         "info": "ED3",
         "index": "ED3"
     },
     {
         "country": "BGD",
+        "modal_info": "<br><img src='/generated/drought/bangladesh.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
         "country": "ARM",
+        "modal_info": "<br><img src='/generated/drought/armenia.png'>",
         "color": "#F4FF43",
         "info": "ED1",
         "index": "ED1"
     },
     {
-        "country": "CHN",
-        "color": "#B6FF43",
-        "info": "ED0",
-        "index": "ED0"
-    },
-    {
-        "country": "BEL",
+        "country": "LTU",
+        "modal_info": "<br><img src='/generated/drought/lithuania.png'>",
         "color": "#23FF13",
         "info": "Neutral",
         "index": "Neutral"
     },
     {
+        "country": "CHN",
+        "modal_info": "<br><img src='/generated/drought/china.png'>",
+        "color": "#B6FF43",
+        "info": "ED0",
+        "index": "ED0"
+    },
+    {
+        "country": "MKD",
+        "modal_info": "<br><img src='/generated/drought/macedonia.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "BEL",
+        "modal_info": "<br><img src='/generated/drought/belgium.png'>",
+        "color": "#23FF13",
+        "info": "Neutral",
+        "index": "Neutral"
+    },
+    {
+        "country": "MWI",
+        "modal_info": "<br><img src='/generated/drought/malawi.png'>",
+        "color": "#FFC238",
+        "info": "ED2",
+        "index": "ED2"
+    },
+    {
         "country": "BEN",
+        "modal_info": "<br><img src='/generated/drought/benin.png'>",
         "color": "#61FFD1",
         "info": "EW1",
         "index": "EW1"
     },
     {
         "country": "BLZ",
+        "modal_info": "<br><img src='/generated/drought/belize.png'>",
         "color": "#FFC238",
         "info": "ED2",
         "index": "ED2"
     },
     {
         "country": "KHM",
+        "modal_info": "<br><img src='/generated/drought/cambodia.png'>",
         "color": "#5AFF93",
         "info": "EW0",
         "index": "EW0"

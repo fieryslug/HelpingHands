@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d10efc68-d4b1-48ee-957d-8c53f52b5d7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/analysis/uv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants/earthquake_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/drought.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/drought.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/earthquake.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/earthquake.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved/drought_geo.json" beforeDir="false" afterPath="$PROJECT_DIR$/saved/drought_geo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/country.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/country.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="d10efc68-d4b1-48ee-957d-8c53f52b5d7a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,6 +181,7 @@
       <workItem from="1571415819952" duration="22667000" />
       <workItem from="1571440119466" duration="23219000" />
       <workItem from="1571497518823" duration="31999000" />
+      <workItem from="1571544532553" duration="258000" />
     </task>
     <servers />
   </component>

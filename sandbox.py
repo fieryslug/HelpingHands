@@ -7,7 +7,7 @@ from constants.countries import countries
 from analysis import drought, heat
 
 
-a = ci.read('gambia')
-pprint(a)
-
+for country in countries:
+    if ci.crawl_and_save(country, '2008-01-01', '2019-09-30') == -1:
+        break
 

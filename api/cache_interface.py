@@ -1,5 +1,5 @@
 from utils import time, data_manipulating as dm
-from api import api_request, apis
+from api import api_request, apis, keys
 import datetime
 import json
 import os
@@ -19,6 +19,15 @@ def crawl_and_save(loc, date_i, date_f):
 
     while enddate < date_f + delta:
         r = api_request.make_request_wwo(apis.wwo.historical_local, loc, {'date': date, 'enddate': enddate, 'tp': '6'})
+        if 'error' in r['data'].keys():
+            if r['data']['error'][0]['msg'].startswith('API key has reached calls'):
+                if len(keys.unused) > 0:
+                    keys.used.append(keys.key_wwo)
+                    keys.key_wwo = keys.unused[-1]
+                    del keys.unused[-1]
+                    continue
+                else:
+                    return -1
         if 'weather' in r['data'].keys():
             d = r['data']['weather']
             for daily in d:

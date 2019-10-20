@@ -1,4 +1,5 @@
-var listAPI = '/list.json';
+var listAPI = '/list.json'
+var imgAPI = './api/modal.json'
 
 var app = new Vue({
     el: '#app',
@@ -42,7 +43,7 @@ var dataset = url.searchParams.get("dataset");
 var fill = {},
     data = {},
     bubble = [],
-    map;
+    map, modal_info = {};
 
 if (dataset)
     xhrGet(dataset, (response) => {
@@ -59,7 +60,8 @@ if (dataset)
             fill[j.geography[i].color] = j.geography[i].color
             data[j.geography[i].country] = {
                 fillKey: j.geography[i].color,
-                info: j.geography[i].info
+                info: j.geography[i].info,
+                modal_info: j.geography[i].modal_info
             };
         }
 
@@ -93,10 +95,13 @@ if (dataset)
             bubblesConfig: {
                 highlightFillColor: '#000000',
                 highlightBorderColor: '#000000'
+            },
+            done: function (datamap) {
+                datamap.svg.selectAll('.datamaps-subunit').on('click', function (geography) {
+                    modal(geography.properties.country, data[geography.id].modal_info);
+                });
             }
         });
-
-
 
         map.bubbles(bubble, {
             popupTemplate: function (geo, data) {
@@ -128,7 +133,23 @@ else
         }
     });
 
-function redirect(){
+function redirect() {
     console.log('https://www.csie.ntu.edu.tw/~b08902143/nasamia/?dataset=' + document.getElementById('url').value);
     window.location.href = 'https://www.csie.ntu.edu.tw/~b08902143/nasamia/?dataset=' + document.getElementById('url').value;
+}
+
+function modal(title, content) {
+    if (content != undefined) {
+        document.getElementById('modal-title').innerHTML = title;
+        document.getElementById('modal-content').innerHTML = content;
+        document.getElementById('modal').classList.toggle('is-active')
+    }
+}
+
+function xhrModal(path){
+    console.log(path);
+    xhrGet(path, (res)=>{
+        json = JSON.parse(res);
+        modal(json.title, json.modal_content);
+    })
 }

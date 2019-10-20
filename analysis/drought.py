@@ -21,6 +21,7 @@ colormap = {
     'EW4': '#221BFF'
 }
 
+
 def ee(daily):
     tmax = -100
     tmin = 100
@@ -101,9 +102,11 @@ def calculate_and_save():
         a = recent(country)
         d = dict()
         d['country'] = country_util.get_code(country)
+        d['modal_info'] = "<br><img src='generated/drought/" + country + ".png'>"
         d['color'] = colormap[a]
         d['info'] = a
         d['index'] = a
+        plot(country)
         res.append(d)
     with open('saved/drought_geo.json', 'w+') as f:
         json.dump(res, f, indent=4)
@@ -118,3 +121,18 @@ def get_geography():
 def get_bubbles():
     res = []
     return res
+
+
+def plot(loc):
+    data = ci.read(loc)
+    dates = []
+    quan = []
+    for daily in data:
+        dates.append(datetime.datetime.strptime(daily['date'], '%Y-%m-%d').date())
+        e = ee(daily)
+        quan.append(e)
+
+    fig, ax = plt.subplots()
+
+    ax.plot(dates, quan, lw=0.3)
+    plt.savefig('generated/drought/' + loc + '.png')
